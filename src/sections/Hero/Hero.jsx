@@ -47,7 +47,7 @@ function Hero() {
                     <img src={linkedinIcon} alt="Linkedin icon" />
                     </a>
                 </span>
-                <p>Result-driven and highly motivated Computer Science <br></br> graduate with a concentration in AI & Robotics</p>
+                <p className={styles.description}>Result-driven and highly motivated Computer Science <br></br> graduate with a concentration in AI & Robotics</p>
                 <a href={RSM} download>
                     <button className="hover">Resume</button>
                 </a>
