@@ -38,7 +38,7 @@ function Hero() {
                 <br />
                 Nawar
                 </h1>
-                <h2>Data Engineer</h2>
+                <h2>Aspiring Data Engineer</h2>
                 <span>
                     <a href="https://github.com/mnawar27?tab=repositories" target="_blank">
                     <img src={githubIcon} alt="Github icon" />

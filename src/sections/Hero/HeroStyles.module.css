@@ -11,7 +11,7 @@
         max-width: 200px;
     }
 
-    span{
+    /* span{
         display: flex;
         gap: 25px;
         justify-content: center;
@@ -24,6 +24,21 @@
                 width: 30px;
             }
         }
+    } */
+
+    span {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+    span a img {
+        width: 30px;
+        transition: transform 200ms ease-in-out;
+    }
+
+    span a:hover img {
+        transform: scale(1.2);
     }
 
     a{
