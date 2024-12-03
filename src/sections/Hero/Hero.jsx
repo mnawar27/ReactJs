@@ -11,9 +11,13 @@ import RSM from '../../assets/rsm.pdf'
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
+
+    //
     const { theme, toggleTheme } = useTheme();
 
-    const themeIcon = theme === 'dark' ? moon : sun;
+    
+
+    const themeIcon = theme === 'light' ? sun : moon;
     const githubIcon = theme === 'light' ? githubLight : githubDark;
     const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
     return (
